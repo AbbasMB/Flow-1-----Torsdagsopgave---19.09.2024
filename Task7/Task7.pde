@@ -1,11 +1,11 @@
 void setup() {
-  num(1);
+  num(10);
 }
 
 void num(int x) {
   if (x >= 0) {
+    println(x);
     x--;
-    print(x);
     num(x);
   }
 }
